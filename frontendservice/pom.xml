@@ -6,7 +6,7 @@
         <groupId>nl.marcenschede.tests</groupId>
         <artifactId>monorepo</artifactId>
         <version>1.2</version>
-        <relativePath>../../../monorepo</relativePath>
+        <relativePath>../../monorepo</relativePath>
     </parent>
 
     <groupId>nl.marcenschede.tests.monorepo</groupId>
