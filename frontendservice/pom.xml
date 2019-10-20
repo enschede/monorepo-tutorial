@@ -5,13 +5,13 @@
     <parent>
         <groupId>nl.marcenschede.tests</groupId>
         <artifactId>monorepo</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>1.2</version>
         <relativePath>../../../monorepo</relativePath>
     </parent>
 
     <groupId>nl.marcenschede.tests.monorepo</groupId>
     <artifactId>frontend-service</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2</version>
     <name>Frontend Service</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
