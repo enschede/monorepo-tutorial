@@ -11,7 +11,6 @@
 
     <groupId>nl.marcenschede.tests.monorepo</groupId>
     <artifactId>frontend-service</artifactId>
-    <version>1.1-SNAPSHOT</version>
     <name>Frontend Service</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
