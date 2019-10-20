@@ -6,7 +6,7 @@
 
     <groupId>nl.marcenschede.tests</groupId>
     <artifactId>monorepo</artifactId>
-    <version>1.1-integrationtests-SNAPSHOT</version>
+    <version>1.2-integrationtests-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
