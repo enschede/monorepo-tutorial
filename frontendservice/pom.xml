@@ -6,7 +6,6 @@
         <groupId>nl.marcenschede.tests</groupId>
         <artifactId>monorepo</artifactId>
         <version>1.2-integrationtests-SNAPSHOT</version>
-        <relativePath>../../monorepo</relativePath>
     </parent>
 
     <groupId>nl.marcenschede.tests.monorepo</groupId>
@@ -89,6 +88,17 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
+                <configuration>
+                    <mainClass>nl.marcenschede.tests.monorepo.frontend.FrontendApplicationKt</mainClass>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>

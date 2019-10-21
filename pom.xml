@@ -20,6 +20,7 @@
         <module>backend</module>
         <module>frontendservice</module>
         <module>frontend2service</module>
+        <module>integrationtests</module>
     </modules>
 
     <build>
