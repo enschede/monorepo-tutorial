@@ -4,7 +4,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.hamcrest.CoreMatchers;
-import org.junit.Assert;
 import org.springframework.web.client.RestTemplate;
 
 import static org.junit.Assert.assertThat;
@@ -26,12 +25,17 @@ public class FeatureHooks {
         response = new RestTemplate().getForObject("http://localhost:8082/welcome/" + firstname, String.class);
     }
 
+    @When("the user is greeted on 8083")
+    public void the_user_is_greeted_on_8083() {
+
+        response = new RestTemplate().getForObject("http://localhost:8083/welcome/" + firstname, String.class);
+    }
+
     @Then("the welcome message is {string}")
     public void the_welcome_message_is(String string) {
 
         assertThat(response, CoreMatchers.equalTo(string));
     }
-
 
 
 }
