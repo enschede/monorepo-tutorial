@@ -6,7 +6,7 @@
     <parent>
         <groupId>nl.marcenschede.tests.monorepo</groupId>
         <artifactId>backend-parent</artifactId>
-        <version>1.2-integrationtests-SNAPSHOT</version>
+        <version>1.2</version>
     </parent>
 
     <groupId>nl.marcenschede.tests.monorepo.backend</groupId>
