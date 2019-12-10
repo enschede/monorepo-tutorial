@@ -24,17 +24,17 @@
         <dependency>
             <groupId>nl.marcenschede.tests.monorepo.backend</groupId>
             <artifactId>backendservice</artifactId>
-            <version>1.3-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>nl.marcenschede.tests.monorepo</groupId>
             <artifactId>frontend2-service</artifactId>
-            <version>1.3-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>nl.marcenschede.tests.monorepo</groupId>
             <artifactId>frontend-service</artifactId>
-            <version>1.3-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
