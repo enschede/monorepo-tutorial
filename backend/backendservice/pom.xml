@@ -3,19 +3,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>nl.marcenschede.tests.monorepo</groupId>
-        <artifactId>backend-parent</artifactId>
-        <version>1.3.1-parent-test-SNAPSHOT</version>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.2.3.RELEASE</version>
+        <relativePath/>
     </parent>
 
     <groupId>nl.marcenschede.tests.monorepo.backend</groupId>
     <artifactId>backendservice</artifactId>
+    <version>1.3.1-parent-test-SNAPSHOT</version>
     <name>Backend Service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <kotlin.version>1.3.50</kotlin.version>
-        <spring-boot.version>2.2.0.M6</spring-boot.version>
+        <spring-boot.version>2.2.3.RELEASE</spring-boot.version>
     </properties>
 
     <dependencyManagement>
@@ -135,11 +137,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven-surefire-plugin.version}</version>
             </plugin>
         </plugins>
     </build>
