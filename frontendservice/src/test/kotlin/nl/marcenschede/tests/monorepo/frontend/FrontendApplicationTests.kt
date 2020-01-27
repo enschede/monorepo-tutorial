@@ -9,6 +9,7 @@ class FrontendApplicationTests {
 
     @Test
     fun contextLoads() {
+//        fail("NOP")
     }
 
 }
